@@ -1,0 +1,4 @@
+RUN	simulations.AddUserSimulation	addusersimulation	1613497008941	0	3.5.1
+USER	Add User Scenario	START	1613497011613
+REQUEST		Add User Request	1613497011664	1613497017488	KO	status.find.is(200), but actually found 201
+USER	Add User Scenario	END	1613497017560

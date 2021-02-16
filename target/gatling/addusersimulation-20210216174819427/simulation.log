@@ -1,0 +1,5 @@
+RUN	simulations.AddUserSimulation	addusersimulation	1613497699427	tes	3.5.1
+USER	Add User Scenario	START	1613497702056
+REQUEST		Add User Request	1613497702102	1613497708089	OK	 
+REQUEST		get user request	1613497711138	1613497719555	KO	j.n.UnknownHostException: reqres.inapi
+USER	Add User Scenario	END	1613497719570

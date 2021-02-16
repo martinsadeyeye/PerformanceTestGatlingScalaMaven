@@ -1,0 +1,5 @@
+RUN	simulations.AddUserSimulation	addusersimulation	1613497530740	0	3.5.1
+USER	Add User Scenario	START	1613497533640
+REQUEST		Add User Request	1613497533712	1613497540253	OK	 
+REQUEST		get user request	1613497543317	1613497552525	KO	j.n.UnknownHostException: reqres.inapi
+USER	Add User Scenario	END	1613497552564
