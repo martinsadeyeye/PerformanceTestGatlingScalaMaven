@@ -1,0 +1,5 @@
+RUN	simulations.UpdateUserSimulation	updateusersimulation	1614672739733	test put and delete	3.5.1
+USER	Update User Scenario	START	1614672742724
+REQUEST		Update specific User	1614672742773	1614672747542	OK	 
+REQUEST		delete User	1614672750683	1614672751216	OK	 
+USER	Update User Scenario	END	1614672751226

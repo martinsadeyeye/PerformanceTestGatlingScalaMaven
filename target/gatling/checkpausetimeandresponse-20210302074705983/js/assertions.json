@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.CheckPauseTimeAndResponse",
+  "simulationId": "checkpausetimeandresponse",
+  "start": 1614671225983,
+  "description": "testing pause",
+  "scenarios": ["user api calls"],
+  "assertions": [
+
+  ]
+}

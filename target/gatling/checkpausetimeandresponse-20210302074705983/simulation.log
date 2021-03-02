@@ -1,0 +1,6 @@
+RUN	simulations.CheckPauseTimeAndResponse	checkpausetimeandresponse	1614671225983	testing pause	3.5.1
+USER	user api calls	START	1614671230050
+REQUEST		List all Users	1614671230156	1614671236902	OK	 
+REQUEST		single user api	1614671242095	1614671244327	OK	 
+REQUEST		single user not found api	1614671252877	1614671253403	OK	 
+USER	user api calls	END	1614671256413
