@@ -1,0 +1,5 @@
+RUN	simulations.BillerApiSimulation	billerapisimulation	1614677985381	test	3.5.1
+USER	Generate Access Token	START	1614677987872
+REQUEST		Generate Token	1614677987928	1614677992155	KO	i.n.h.s.NotSslRecordException: not an SSL/TLS record: 485454502f312e3120343030200d0a5472616e736665722d456e636f64696e673a206368756e6b65640d0a446174653a205475652c203032204d617220323032312030393a33393a353520474d540d0a436f6e6e656374696f6e3a20636c6f73650d0a0d0a300d0a0d0a
+ERROR	Get All Biller: Failed to build request: url https://192.168.19.50::6201/microservice/remita/gateway/send/api/bgatesvc/v3/billpayment/billers can't be parsed into an Uri: j.l.NumberFormatException: For input string: ":6201" 	1614677992169
+USER	Generate Access Token	END	1614677992172

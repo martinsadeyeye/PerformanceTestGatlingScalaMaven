@@ -1,0 +1,5 @@
+RUN	simulations.BillerApiSimulation	billerapisimulation	1614678035594	tets	3.5.1
+USER	Generate Access Token	START	1614678038466
+REQUEST		Generate Token	1614678038522	1614678052281	KO	i.n.c.ConnectTimeoutException: connection timed out: /192.168.19.50:5571
+ERROR	Get All Biller: Failed to build request: No attribute named 'token' is defined 	1614678052304
+USER	Generate Access Token	END	1614678052309

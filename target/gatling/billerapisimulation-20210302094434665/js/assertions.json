@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.BillerApiSimulation",
+  "simulationId": "billerapisimulation",
+  "start": 1614678274665,
+  "description": "test",
+  "scenarios": ["Generate Access Token"],
+  "assertions": [
+
+  ]
+}

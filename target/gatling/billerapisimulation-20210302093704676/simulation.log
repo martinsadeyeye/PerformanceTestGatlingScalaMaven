@@ -1,0 +1,5 @@
+RUN	simulations.BillerApiSimulation	billerapisimulation	1614677824676	get bill	3.5.1
+USER	Generate Access Token	START	1614677827252
+REQUEST		Generate Token	1614677827296	1614677840616	KO	i.n.c.ConnectTimeoutException: connection timed out: /192.168.19.50:5571
+ERROR	Get All Biller: Failed to build request: url https://192.168.19.50::6201/microservice/remita/gateway/send/api/bgatesvc/v3/billpayment/billers can't be parsed into an Uri: j.l.NumberFormatException: For input string: ":6201" 	1614677840632
+USER	Generate Access Token	END	1614677840636
